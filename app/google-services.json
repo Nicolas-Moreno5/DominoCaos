@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "367551773824",
+    "project_id": "dominocaos-4d256",
+    "storage_bucket": "dominocaos-4d256.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367551773824:android:76991aa410e832f7437a65",
+        "android_client_info": {
+          "package_name": "com.example.dominocaos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB05TX5SjayDQadtg8FlihxCLrJ4ZLaLkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
