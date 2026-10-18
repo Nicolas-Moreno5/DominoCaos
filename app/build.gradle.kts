@@ -68,3 +68,9 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.2")
 }
+
+tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
+    compilerOptions {
+        freeCompilerArgs.add("-Xskip-metadata-version-check")
+    }
+}

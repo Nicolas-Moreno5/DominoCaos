@@ -212,6 +212,14 @@ class JuegoViewModel(
         _uiState.update { it.copy(mensajeError = null) }
     }
 
+    fun limpiarEvento() {
+        viewModelScope.launch {
+            partidaRepository.ejecutarAccionDirecta(codigoSala) { estado ->
+                estado.copy(ultimoEvento = null)
+            }
+        }
+    }
+
     class Factory(
         private val codigoSala: String,
         private val uidUsuario: String,
